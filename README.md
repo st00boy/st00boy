@@ -58,16 +58,48 @@ kevin@kali:~$ cat about.txt
 
 ---
 
-## 📊 GitHub Stats
+## 🧠 Skills & Activity
+
+### ⚔️ Offensive
+| Skill | Level |
+|-------|-------|
+| Web App Pentesting | ![88%](https://progress-bar.xyz/88/?title=&width=220&color=e24b4a) |
+| OSINT & Recon | ![82%](https://progress-bar.xyz/82/?title=&width=220&color=ba7517) |
+| Network Scanning | ![76%](https://progress-bar.xyz/76/?title=&width=220&color=7f77dd) |
+| Vulnerability Analysis | ![74%](https://progress-bar.xyz/74/?title=&width=220&color=5dcaa5) |
+
+### 💻 Development
+| Skill | Level |
+|-------|-------|
+| Bash Scripting | ![85%](https://progress-bar.xyz/85/?title=&width=220&color=1d9e75) |
+| Python | ![72%](https://progress-bar.xyz/72/?title=&width=220&color=378add) |
+| HTML5 | ![78%](https://progress-bar.xyz/78/?title=&width=220&color=e24b4a) |
+| Oracle DB | ![60%](https://progress-bar.xyz/60/?title=&width=220&color=ba7517) |
+
+---
+
+### 🟩 Contribution Graph
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=st00boy&theme=dark&hide_border=true&include_all_commits=false&count_private=false&title_color=1d9e75&icon_color=7f77dd&text_color=aaaaaa" width="49%" />
-<img src="https://nirzak-streak-stats.vercel.app/?user=st00boy&theme=dark&hide_border=true&ring=1d9e75&fire=e24b4a&currStreakLabel=1d9e75" width="49%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=st00boy&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact&title_color=1d9e75&text_color=aaaaaa" width="40%" />
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=st00boy&theme=github-compact&hide_border=true&color=1d9e75&line=1d9e75&point=5dcaa5&area=true)](https://github.com/st00boy)
 
 </div>
+
+---
+
+### 🖥️ Terminal Log
+
+```bash
+kevin@kali:~$ ./recon.sh --target web-app-pentest-lab
+[+] target scope loaded: web-app-pentest-lab
+[+] running nmap scan on 192.168.1.0/24 ...
+[!] open port found: 8080/tcp — http detected
+[+] launching burp suite proxy...
+[+] sql injection payload crafted — testing...
+[✓] vulnerability confirmed — writing report
+kevin@kali:~$ ▋
+```
 
 ---
 
